@@ -134,7 +134,7 @@ export default function NavigationBar() {
         </IconButton>
         <p>Messages</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem component={Link} to={"/Cart"}>
         <IconButton
           size="large"
           aria-label="show 17 new notifications"
